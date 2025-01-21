@@ -2,7 +2,7 @@ import { auth } from '@/firebase/server';
 import { DecodedIdToken } from 'firebase-admin/auth';
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation';
-import { re } from '../../.next/static/chunks/node_modules_7b3486._';
+
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import UpdatePasswordForm from './update-password-form';
